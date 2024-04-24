@@ -1,0 +1,14 @@
+.container-user{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.User-blocks{
+    height: 100px;
+    background-color: rgb(7, 32, 40);
+    border: 1px solid rgb(196, 0, 0);
+   text-align: center;
+    align-items: center;
+    cursor: pointer;
+   margin: 0px 10px 20px 0px;
+}

@@ -1,0 +1,28 @@
+.movie-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:20px;
+    padding-left: 20px;
+}
+.movie-blocks{
+    height: 50vh;
+    width: 60%;
+    background-color: black;
+    border: 1px solid;
+    border-color: black;
+   text-align: center;
+    align-items: center;
+    cursor: pointer;
+   margin: 0px 10px 20px 0px;
+   overflow: inherit;
+   padding-top: 10px;
+}
+.movie-blocks:hover{
+    transform: scale(1.2);
+}
+.movie-details {
+    display: none;
+  }
+  .movie-details.show {
+    display: block;
+  }  

@@ -1,0 +1,18 @@
+.footer-container{
+    background-color: rgba(0, 0, 0, 0.5);
+    color:gray;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 50vh;
+    width: 80%;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+     width: 80%;
+}
+.column{
+    font-size: 15px;
+    
+}
